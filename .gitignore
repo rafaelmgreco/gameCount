@@ -1,0 +1,19 @@
+# Monorepo
+node_modules/
+
+# App dependencies
+backend/node_modules/
+frontend/node_modules/
+
+# Build outputs
+backend/dist/
+frontend/.next/
+frontend/out/
+
+# Logs
+*.log
+
+# Env files
+.env
+.env.*
+!.env.example
